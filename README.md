@@ -12,3 +12,9 @@ $ cd voila_firwin_designer
 $ poetry install
 $ poetry run voila firwin_designer.ipynb
 ```
+
+If you want to run voila app on jupyterlab, run below command.
+
+```sh
+$ poetry run jupyter labextension install @jupyter-voila/jupyterlab-preview
+```
